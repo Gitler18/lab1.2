@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <title>Добыча драгоценных камней</title>
+    </head>
+<body>
+    <p>Заполните обязательные поля, чтобы добавить данные в таблицу</p>
+    <form>  
+    <p>
+        Тип камушков:
+        <select>
+            <option>сапфиры</option>
+            <option>рубины</option>
+            <option>алмазы</option>
+        </select>
+    </p>
+
+    <p>
+        Год:
+        <input type="text" placeholder="mm/dd/yyyy">
+        <span class="green">✔️</span>
+    </p>
+
+    <p>
+        Количество:
+        <input type="text">
+        <span class="red">✖️</span>
+    </p>
+    <input type="submit" value="Отправить">
+</form>
+<h4 style="margin-left: 150px;">Добыча драгоценных камней</h4>
+<style>
+h3,h4 {
+    font-weight: normal;
+}
+</style>
+<table border="1" cellpadding="5" cellspacing="0" width="600">
+    <tr>
+        <th rowspan="2">Камушек</th>
+        <th colspan="3">Год</th>
+    </tr>
+    <tr>
+        <th>2010</th>
+        <th>2012</th>
+        <th>2014</th>
+    </tr>
+
+    <tr>
+        <td>Сапфиры</td>
+        <td>1483</td>
+        <td>4532</td>
+        <td>6743</td>
+    </tr>
+
+    <tr>
+        <td>Рубины</td>
+        <td></td>
+        <td>3835</td>
+        <td>7482</td>
+    </tr>
+
+    <tr>
+        <td>Алмазы</td>
+        <td>683</td>
+        <td></td>
+        <td>238</td>
+    </tr>
+
+    <tr>
+        <td colspan="4">
+            Итого: много миллионов
+            <ol>
+                <li>
+                    Итого по видам драгоценных камней: много тысяч
+                    <ul>
+                        <li><a href="#">Сапфиров</a> немыслимое количество</li>
+                        <li>Но <a href="#">рубинов</a> под конец всё же больше</li>
+                    </ul>
+                </li>
+                <li>
+                    Итого по полудрагоценным камням
+                    <ul>
+                        <li><a href="#">Изумрудов</a> 0</li>
+                        <li><a href="#">Топазов</a> 0</li>
+                        <li><a href="#">Опалов</a> тоже 0</li>
+                    </ul>
+                </li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
